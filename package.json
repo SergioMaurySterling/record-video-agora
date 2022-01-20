@@ -1,0 +1,25 @@
+{
+  "name": "agora",
+  "version": "1.0.0",
+  "description": "Creating an agora video and audio recording",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Agora.io",
+    "video",
+    "recording",
+    "audio",
+    "recording"
+  ],
+  "author": "Sergio Maury Sterling",
+  "license": "ISC",
+  "dependencies": {
+    "agora-rtc-sdk-ng": "latest",
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "firebase": "^9.6.3",
+    "go": "^3.0.1"
+  }
+}

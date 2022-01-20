@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dp-video</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main class="main-block">
+        <div class="modal">
+            <video id='vid1' class='hidden' controls muted></video>
+            <div class="buttons">
+                <button id="btnStart">START RECORDING</button>
+                <button id="btnStop">STOP RECORDING</button>
+            </div>
+            <video id="vid2" class='hidden' controls></video>
+            <button id="btnSend" onclick="uploadPost()">SEND REVIEW</button>
+        </div>
+    </main>
+    <script src="./video.js"></script>
+    <script type='module' src="./firebase.js"></script>
+    <script type='module' src="./uploadVid.js"></script>
+</body>
+</html>
